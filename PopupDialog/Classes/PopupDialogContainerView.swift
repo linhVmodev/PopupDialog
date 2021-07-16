@@ -112,7 +112,7 @@ final public class PopupDialogContainerView: UIView {
     internal lazy var container: UIView = {
         let container = UIView(frame: .zero)
         container.translatesAutoresizingMaskIntoConstraints = false
-        container.backgroundColor = UIColor.white
+        container.backgroundColor = UIColor.clear
         container.clipsToBounds = true
         container.layer.cornerRadius = 4
         return container
